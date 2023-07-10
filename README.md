@@ -1,3 +1,4 @@
+This is a fork for experimenting with retraining HiFiGAN on the LibriTTS-R dataset. This is a work in progress.
 # Voice Conversion With Just Nearest Neighbors (kNN-VC)
 
 The official code repo! This repo contains training and inference code for kNN-VC -- an any-to-any voice conversion model from our paper, "Voice Conversion With Just k-Nearest Neighbors". The trained checkpoints are available under the 'Releases' tab and through `torch.hub`. 
