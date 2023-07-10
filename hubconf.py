@@ -37,7 +37,7 @@ def hifigan_wavlm(pretrained=True, progress=True, prematched=True, device='cuda'
     
     if pretrained:
         if prematched:
-            url = "https://github.com/bshall/knn-vc/releases/download/v0.1/prematch_g_02500000.pt"
+            url = "https://github.com/gaurangbharti1/knn-vc/releases/download/0.0.1/g_00610000.pt"
         else:
             url = "https://github.com/bshall/knn-vc/releases/download/v0.1/g_02500000.pt"
         state_dict_g = torch.hub.load_state_dict_from_url(
